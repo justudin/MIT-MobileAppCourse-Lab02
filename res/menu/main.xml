@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >   
+    <item android:id="@+id/wb" android:title="@string/wb"></item>
+    <item android:id="@+id/bb" android:title="@string/bb"></item>
+    <item android:id="@+id/hp" android:title="@string/hp"></item>
+    <item android:id="@+id/sp" android:title="@string/sp"></item>
+</menu>
