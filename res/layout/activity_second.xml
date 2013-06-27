@@ -22,8 +22,8 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:gravity="right"
         android:inputType="text" >
-
         <requestFocus />
     </EditText>
 
@@ -155,20 +155,29 @@
         android:text="@string/clear" />
 
     <Button
-        android:id="@+id/btnEqual"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btn0"
-        android:layout_alignBottom="@+id/btn0"
-        android:layout_toLeftOf="@+id/btn9"
-        android:text="@string/equal" />
-
-    <Button
         android:id="@+id/btndiv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn8"
         android:layout_toRightOf="@+id/btn8"
         android:text="@string/div" />
+
+    <Button
+        android:id="@+id/btnEqual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn0"
+        android:layout_alignRight="@+id/result"
+        android:layout_below="@+id/btndiv"
+        android:text="@string/equal" />
+
+    <Button
+        android:id="@+id/btnkoma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn0"
+        android:layout_alignBottom="@+id/btn0"
+        android:layout_toRightOf="@+id/btn0"
+        android:text="@string/koma" />
 
 </RelativeLayout>

@@ -1,5 +1,9 @@
 package com.justudin.lab02_basiccalculator;
-
+/*
+ * @author justudin
+ * @email <justudinlab@gmail.com>
+ * @github justudin 
+ * */
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
